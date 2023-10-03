@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;600;700;900&display=swap');
+
+:root {
+  --color-1: hsl(0, 0%, 100%);
+  --color-2: hsl(225, 100%, 94%);
+  --color-3: hsl(245, 75%, 52%);
+  --color-4: hsl(225, 100%, 98%);
+  --color-5: hsl(224, 23%, 55%);
+  --color-6: hsl(223, 47%, 23%);
+  --color-7: hsl(245, 57%, 58%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-2);
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: 40%;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 500px;
+  border-radius: 15px;
+  background-color: var(--color-1);
+}
+
+img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+.card-body {
+  text-align: center;
+  padding: 10px 30px;
+}
+
+.header {
+  font-size: 20px;
+  font-weight: 900;
+  color: var(--color-6);
+}
+
+.details {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--color-5);
+}
+
+.music-plan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 15px;
+  margin: 20px 0;
+  border-radius: 8px;
+  background-color: var(--color-4);
+}
+
+.music-plan-1 {
+  display: flex;
+}
+
+.music-icon {
+  width: 32px;
+  height: 32px;
+  margin: 5px 12px 0 0;
+}
+
+.plan p {
+  margin: 2px 0;
+}
+
+.duration {
+  font-size: 13px;
+  font-weight: 900;
+  color: var(--color-6);
+}
+
+.price {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--color-5);
+}
+
+.change {
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--color-3);
+}
+
+.change:hover {
+  text-decoration: none;
+  color: var(--color-7);
+}
+
+button {
+  width: 240px;
+  height: 37px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 0;
+  border-radius: 8px;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--color-1);
+  background-color: var(--color-3);
+}
+
+button:hover {
+  background-color: var(--color-7);
+}
+
+.cancel {
+  font-size: 12px;
+  font-weight: 900;
+  text-decoration: none;
+  color: var(--color-5);
+}
+
+.cancel:hover {
+  color: var(--color-6);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.attribution a:hover {
+  color: var(--color-6);
+}
